@@ -1,0 +1,47 @@
+#tweet-list li {
+  margin: 10px 0px;
+  border: solid 2px black;
+  top: 10px;
+  padding: 0px 4px;
+}
+
+.tweet-username {
+  font-weight: bold;
+  top: 10px;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+
+.tweet-content {
+  padding-left: 5px;
+}
+
+#tweetbox {
+  background-image: url("http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2015/03/0318_twitter.jpg");
+  background-size: 60% 100%;
+  opacity: 0.9;
+}
+
+#switch-user-button {
+  position: relative;
+  transition-property: background-color, color;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+  text-align: left;
+  top: 5px;
+  height: 40px;
+  border-color: black;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 0px 4px;
+  border: solid 1px black;
+}
+
+#switch-user-button:hover {
+  position: relative;
+  transition-property: background-color, color;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+  background-color:white;
+  color:black;
+}
